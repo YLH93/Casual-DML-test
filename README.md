@@ -14,5 +14,6 @@ with a known causal effect $\theta$. DML works by estimating the nuisance functi
 
 # References
 Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., Newey, W., & Robins, J. (2018). Double/Debiased Machine Learning for Treatment and Structural Parameters. The Econometrics Journal, 21(1), C1–C68. 
+
 Schwab, P., et al. (2019). Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.
   
