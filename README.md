@@ -9,7 +9,9 @@ Double Machine Learning is a powerful method that combines flexible machine lear
 * Outcome (Y): Recovery time (continuous variable)
 
 The true data-generating process follows a partially linear model:
+
 $Y = g(X) + \theta D + \epsilon$
+
 with a known causal effect $\theta$. DML works by estimating the nuisance functions $m(X) = E(D|X)$ and $g(X) = E(Y|X)$ using machine learning models, computing residuals, and then regressing the outcome residual on the treatment residual to recover an unbiased estimate of $\theta$
 
 # References
